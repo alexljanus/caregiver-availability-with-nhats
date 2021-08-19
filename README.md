@@ -1,5 +1,10 @@
 ### README File for the Project Caregiver Availability and Patterns of Informal and Formal Eldercare
 
+#### Directory: alexljanus/caregiver-availability-with-nhats/analysis
+
+This directory contains Stata do-files that perform the data preparation and data analysis steps for the project:
+- dofile1
+
 #### Directory: alexljanus/caregiver-availability-with-nhats/figures
 
 This directory contains a Jupyter notebook that creates the following figures using Python's matplotlib library and saves them as .png files:
