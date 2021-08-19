@@ -2,9 +2,10 @@
 
 #### Directory: alexljanus/caregiver-availability-with-nhats/analysis
 
-This directory contains Stata do-files that perform the data preparation and data analysis steps for the project:
+This directory contains Stata do-files that perform the data preparation and statistical modeling steps for the project Caregiver Availability and Patterns of Informal and Formal Eldercare:
 - **dofile1.do**:
-  - lines 
+  - Reads in the following data files, which are available from the National Health and Aging Trends Study website (https://nhats.org):
+    - HELLO
 - **dofile2.do**:
 - **log1.smcl**: log file for dofile1.do
 - **log2.smcl**: log file for dofile2.do
