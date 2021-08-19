@@ -4,7 +4,7 @@
 
 This directory contains Stata do-files that perform the data preparation and data analysis steps for the project:
 - **dofile1.do**:
--- lines 
+  - lines 
 - **dofile2.do**:
 - **log1.smcl**: log file for dofile1.do
 - **log2.smcl**: log file for dofile2.do
