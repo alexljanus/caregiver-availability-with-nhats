@@ -6,12 +6,28 @@ This directory contains Stata do-files (as well as their corresponding log files
 
 Below is a general description of the analytical steps performed by each of the do-files. Please see the do-files themselves for detailed annotations:
 #### dofile1.do
-- Reads in the sample-person-level data file from Round 1 "NHATS_Round_1_SP_File" (available from the National Health and Aging Trends Study website https://nhats.org).
+- Reads in the sample-person-level data file from **Round 1** "NHATS_Round_1_SP_File" (available from the National Health and Aging Trends Study website https://nhats.org).
+- Generates the following variables:
+  - Measures of dementia status
+  - Measures of limitations with self-care and mobility activities
+  - Measures of unmet need with activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
+  - Measures of socio-demographic characteristics (gender, racial ancestry, age, spouse has self-care needs, marital status, number of children, total income, medicaid coverage, residential care status)
 
 #### dofile2.do
-- Reads in the sample-person-level data file from Round 5 "NHATS_Round_5_SP_File_V2" (available from the National Health and Aging Trends Study website https://nhats.org).
+- Reads in the sample-person-level data file from **Round 5** "NHATS_Round_5_SP_File_V2" (available from the National Health and Aging Trends Study website https://nhats.org).
+- Generates the following variables:
+  - Measures of dementia status
+  - Measures of limitations with self-care and mobility activities
+  - Measures of unmet need with activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
+  - Measures of socio-demographic characteristics (gender, racial ancestry, age, spouse has self-care needs, marital status, number of children, total income, medicaid coverage, residential care status)
 
-#### Directory: alexljanus/caregiver-availability-with-nhats/figures
+#### dofile3.do
+- Performs the following merges 
+
+#### dofile4.do
+
+
+### Directory: alexljanus/caregiver-availability-with-nhats/figures
 
 This directory contains a Jupyter notebook that creates the following figures using Python's matplotlib library and saves them as .png files:
 - Hours of Care Received by Focal Caregivers' Employment Status and Source of Care (Bar Charts)
@@ -19,6 +35,6 @@ This directory contains a Jupyter notebook that creates the following figures us
 - Hours of Care Received by Focal Caregivers' Residential Proximity and Source of Care (Bar Charts)
 - Hours of Care Received by Focal Caregivers' Residential Proximity and Source of Care (Pie Charts)
 
-#### Directory: alexljanus/caregiver-availability-with-nhats/figures/figures-as-png-files
+### Directory: alexljanus/caregiver-availability-with-nhats/figures/figures-as-png-files
 
 This directory contains the figures from the project saved as .png files.
