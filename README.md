@@ -12,6 +12,7 @@ Below is a general description of the analytical steps performed by each of the 
   - Measures of limitations with self-care and mobility activities
   - Measures of unmet need with activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
   - Measures of socio-demographic characteristics (gender, racial ancestry, age, spouse has self-care needs, marital status, number of children, total income, medicaid coverage, residential care status)
+- Saves a revised sample-person-level data file from Round 1 containing the aforementioned measures.
 
 #### dofile2.do
 - Reads in the sample-person-level data file from **Round 5** "NHATS_Round_5_SP_File_V2" (available from the National Health and Aging Trends Study website https://nhats.org).
@@ -20,11 +21,25 @@ Below is a general description of the analytical steps performed by each of the 
   - Measures of limitations with self-care and mobility activities
   - Measures of unmet need with activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
   - Measures of socio-demographic characteristics (gender, racial ancestry, age, spouse has self-care needs, marital status, number of children, total income, medicaid coverage, residential care status)
+- Saves a revised sample-person-level data file from Round 5 containing the aforementioned measures.
 
 #### dofile3.do
-- Performs the following merges 
+- Performs the following merges with the other-person-level data file (which includes caregivers/helpers) from **Round 1** ("NHATS_Round_1_OP_File_v2"):
+  - One-to-one merge with the data file containing imputed caregiving hours from Round 1 ("Round_1_hours") using the composite primary key spid, opid.
+  - Many-to-one merge with the revised sample-person-level data file from Round 1 ("SP_ROUND1") using the key spid.
+  - One-to-one merge with the National Study of Caregiving other-person-level tracker file from Round 1 ("NSOC_Round_1_OP_Tracker_File") using the composite primary key spid, opid.
+  - One-to-one merge with the National Study of Caregiving main data file from Round 1 ("NSOC_Round_1_File_v2") using the composite primary key spid, opid.
+  - Saves a revised other-person-level data file from Round 1 ("ROUND1")
 
 #### dofile4.do
+- Performs the following merges with the other-person-level data file (which includes caregivers/helpers) from **Round 5** ("NHATS_Round_5_OP_File_V2"):
+  - One-to-one merge with the data file containing imputed caregiving hours from Round 5 ("Round_5_hours") using the composite primary key spid, opid.
+  - Many-to-one merge with the revised sample-person-level data file from Round 5 ("SP_ROUND5") using the key spid.
+  - One-to-one merge with the National Study of Caregiving other-person-level tracker file from Round 5 ("NSOC_Round_5_OP_Tracker_File_V2") using the composite primary key spid, opid.
+  - One-to-one merge with the National Study of Caregiving main data file from Round 5 ("NSOC_Round_5_File_V2") using the composite primary key spid, opid.
+  - Saves a revised other-person-level data file from Round 5 ("ROUND5")
+
+#### dofile5.do
 
 
 ### Directory: alexljanus/caregiver-availability-with-nhats/figures
