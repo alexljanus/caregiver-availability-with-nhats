@@ -7,7 +7,7 @@ This directory contains Stata do-files (as well as their corresponding log files
 Below is a general description of the analytical steps performed by each of the do-files. Please see the do-files themselves for detailed annotations:
 #### dofile1.do
 - Reads in the sample-person-level data file from **Round 1** "NHATS_Round_1_SP_File" (available from the National Health and Aging Trends Study website https://nhats.org).
-- Generates the following variables:
+- Generates the following sample-person-level variables:
   - Measures of dementia status
   - Measures of limitations with self-care and mobility activities
   - Measures of unmet need with activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
@@ -16,7 +16,7 @@ Below is a general description of the analytical steps performed by each of the 
 
 #### dofile2.do
 - Reads in the sample-person-level data file from **Round 5** "NHATS_Round_5_SP_File_V2" (available from the National Health and Aging Trends Study website https://nhats.org).
-- Generates the following variables:
+- Generates the following sample-person-level variables:
   - Measures of dementia status
   - Measures of limitations with self-care and mobility activities
   - Measures of unmet need with activities of daily living (ADLs) and instrumental activities of daily living (IADLs)
@@ -40,6 +40,24 @@ Below is a general description of the analytical steps performed by each of the 
   - Saves a revised other-person-level data file from Round 5 ("ROUND5")
 
 #### dofile5.do
+- Performs a one-to-one merge with the revised other-person-level data files from Round 1 and Round 5.
+- Reshapes the merged data file ("WIDE") from wide to long format so that caregiver/helper-level data from different rounds is recorded in separate rows. 
+- Generates the following caregiver/helper-level variables:
+  - Multiple helper flags.
+  - Measures of caregivers'/helpers' socio-demographic characteristics.
+- Dependent variables for the hours of care received from focal (primary) non-spousal helpers, non-focal non-spousal helpers, non-focal spousal helpers, formal helpers, and all sources combined. 
+- Saves a revised caregiver/helper-level data file in long format so that caregiver/helper-level data from different rounds is recorded in separate rows.
+
+#### dofile6.do
+- Creates datasets of summary statistics describing sample persons for use in constructing Table 1: Characteristics of SPs with at least 1 NSOC-Interviewed Nonspousal Helper, SPs without an NSOC-Interviewed Nonspousal Helper, and the Combined Sample.
+
+#### dofile7.do
+- Calculates estimates describing focal (primary) non-spousal helpers for Table 2: Characteristics of Focal Nonspousal Helpers.
+
+#### dofile8.do
+- Calculates the percentage of sample persons with data from Round 1 only, Round 5 only, and both rounds.
+
+#### dofile9.do
 
 
 ### Directory: alexljanus/caregiver-availability-with-nhats/figures
