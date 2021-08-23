@@ -58,6 +58,10 @@ Below is a general description of the analytical steps performed by each of the 
 - Calculates the percentage of sample persons with data from Round 1 only, Round 5 only, and both rounds.
 
 #### dofile9.do
+- Creates a sample-person-level dataset to be used for the statistical models (i.e., sample persons with at least one nonspousal caregiver/helper who was interviewed in the National Study of Caregiving).
+- Performs one set of imputations to impute missing values of the measures to be used as independent variables in the statistical models.
+
+#### dofile10.do
 
 
 ### Directory: alexljanus/caregiver-availability-with-nhats/figures
