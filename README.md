@@ -62,7 +62,8 @@ Below is a general description of the analytical steps performed by each of the 
 - Performs one set of imputations to impute missing values of the measures to be used as independent variables in the statistical models.
 
 #### dofile10.do
-
+- Estimates generalized linear models to examine the association of care received from different sources (focal nonspousal, nonfocal nonspousal, spousal, formal, and all sources combined) with indicators of focal (primary) helpers' availability (employment status and residential proximity) and other factors.
+- Estimates generalized linear models to examine the association of unmet need with activities of daily living and instrumental activities of daily living with indicators of focal (primary) helpers' availability (employment status and residential proximity) and other factors.
 
 ### Directory: alexljanus/caregiver-availability-with-nhats/figures
 
