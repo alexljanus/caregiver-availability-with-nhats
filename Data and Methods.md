@@ -35,3 +35,9 @@ With regard to the unmet need dependent variables, NHATS participants were asked
 #### Statistical Models
 
 We estimate generalized linear models to examine the relationship between focal non-spousal helpers’ availability, as indicated by employment status and residential proximity, and older people’s care receipt and unmet need. We include controls for several focal helper characteristics (i.e., relationship to SP, gender, age, self-reported health) and SP characteristics (i.e., gender, racial ancestry, age, marital status, number of children, number of self-care and mobility activity limitations, number of household activity limitations, dementia status, Medicaid coverage, household income, residence type) in our models.  We use “seemingly unrelated estimation” to take into account that equations for the four sources of care may be interdependent and are estimated on the same sample (giving rise to cross-equation covariance in the error terms), and we compute robust (clustered sandwich) standard errors, which takes into account correlation of the error terms across time for the same individual.
+
+### References
+
+DeMatteis, J. M., Freedman, V. A., & Kasper, J. D. (2016). National health and aging trends study round 5 income imputation. Nhats technical paper #15. Retrieved from Johns Hopkins University School of Public Health: https://www.nhats.org/scripts/sampling/NHATS_Round_5_Income_Imputation_2016_rev2018.pdf
+
+White, I. R., Royston, P., & Wood, A. M. (2011). Multiple imputation using chained equations: Issues and guidance for practice. Statistics in Medicine, 30, 377-399.
