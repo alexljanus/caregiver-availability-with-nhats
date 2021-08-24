@@ -40,4 +40,6 @@ We estimate generalized linear models to examine the relationship between focal 
 
 DeMatteis, J. M., Freedman, V. A., & Kasper, J. D. (2016). National health and aging trends study round 5 income imputation. Nhats technical paper #15. Retrieved from Johns Hopkins University School of Public Health: https://www.nhats.org/scripts/sampling/NHATS_Round_5_Income_Imputation_2016_rev2018.pdf
 
+Freedman, V. A., Spillman, B. C., & Kasper, J. (2014). Hours of care in rounds 1 and 2 of the national health and aging trends study. Nhats technical paper #15. Retrieved from Johns Hopkins University School of Public Health: https://www.nhats.org/scripts/sampling/Hours_of_Care_in_NHATS_Rounds_1_and_2_April2014.pdf
+
 White, I. R., Royston, P., & Wood, A. M. (2011). Multiple imputation using chained equations: Issues and guidance for practice. Statistics in Medicine, 30, 377-399.
