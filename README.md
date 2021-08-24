@@ -1,12 +1,16 @@
 ## README File for the Project Caregiver Availability and Patterns of Informal and Formal Eldercare
 
+This README file describes the contents (files and subdirectories) of the main project directory alexljanus/caregiver-availability-with-nhats.
+
 ### File: alexljanus/caregiver-availability-with-nhats/Data and Methods.md
 
-This file contains
+The README file Data and Methods.md contains an overview of the analyses that were conducted for this project, including the hypotheses that motivated the analyses; a description of the survey data that was used; and a description of the statistical models that were estimated.
 
 ### Directory: alexljanus/caregiver-availability-with-nhats/analysis
 
 This directory contains Stata do-files (as well as their corresponding log files) that are necessary to perform the data preparation and statistical modeling steps for the project Caregiver Availability and Patterns of Informal and Formal Eldercare.
+
+At the top of each do-file is an overview of the analytical steps performed. There are also more detailed annotations throughout the code of each do-file. However, we encourage investigators who would like to fully understand the analyses performed to first read the README file Data and Methods.md in the main project directory.
 
 Below is a general description of the analytical steps performed by each of the do-files. Please see the do-files themselves for detailed annotations:
 #### dofile1.do
