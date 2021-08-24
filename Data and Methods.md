@@ -4,13 +4,13 @@
 
 Our analysis has two parts. In the first part of the analysis, we examine the relationship between informal caregiver availability and older people’s care receipt from different informal and paid sources. To capture differences in informal caregiver availability, we use information on the employment status and residential proximity of a selected “focal” non-spouse helper for each sample person in NHATS (we describe the procedure for selecting focal helpers below). We have two hypotheses related to the first part of the analysis: 
 
-H_1: Focal helpers who are ostensibly less available (as indicated by being employed or not co-residing with the care recipient) will provide fewer hours of care compared to focal helpers who are ostensibly more available (as indicated by not working or co-residing with the care recipient).
+*H_1*: Focal helpers who are ostensibly less available (as indicated by being employed or not co-residing with the care recipient) will provide fewer hours of care compared to focal helpers who are ostensibly more available (as indicated by not working or co-residing with the care recipient).
 
-H_2: Care received from non-focal informal and paid sources will compensate for any reduction in care receipt due to older people having an ostensibly less available focal helper.
+*H_2*: Care received from non-focal informal and paid sources will compensate for any reduction in care receipt due to older people having an ostensibly less available focal helper.
 
 While most recent studies point to compensatory processes among care network members, they disagree about whether such compensation is partial or complete, and therefore we do not have precise expectations about the extent of compensation. In this part of the analysis we also include statistical interactions in some of our models to examine how the amount of care received from non-focal informal and paid sources varies according to structural aspects of older people’s care networks in order to disentangle the relative impact of “structural deficits” (i.e., the lack of network members) and “coordination problems” (i.e., little or no compensation from existing network members) on the extent of compensation by non-focal informal and paid helpers. 
 
-In the second part of the analysis, we examine the relationship between informal caregiver availability and indicators of older people’s unmet needs for assistance with daily activities, including the roles of overall care receipt and the balance between informal and paid care in mediating this relationship. We hypothesize that reduced caregiver availability will be associated with greater unmet needs for care (H_2a) and that this relationship will be largely mediated by overall care receipt (H_2b).
+In the second part of the analysis, we examine the relationship between informal caregiver availability and indicators of older people’s unmet needs for assistance with daily activities, including the roles of overall care receipt and the balance between informal and paid care in mediating this relationship. We hypothesize that reduced caregiver availability will be associated with greater unmet needs for care (*H_2a*) and that this relationship will be largely mediated by overall care receipt (*H_2b*).
 
 #### Data
 
