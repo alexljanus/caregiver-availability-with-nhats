@@ -26,4 +26,4 @@ This directory contains the figures from the project saved as .png files.
 
 ### Directory: alexljanus/caregiver-availability-with-nhats/tables
 
-This directory contains the tables from the project, each saved as Microsoft Excel Open XML Spreadsheet (.xlsx) and Portable Document Format (.pdf) files.
+This directory contains the tables from the project saved as Microsoft Excel Open XML Spreadsheet files (.xlsx).
